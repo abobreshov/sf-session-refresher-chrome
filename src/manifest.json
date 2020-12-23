@@ -1,0 +1,30 @@
+{
+    "name": "SF Session Refresher",
+    "version": "1",
+    "description": "Sales Force Session refresher [page refresher]",
+    "permissions":["activeTab"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": "false"
+    },
+    "browser_action": {
+        "default_title": "page refresher"
+    },
+    "page_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16":  "images/R16.png",
+            "32":  "images/R32.png",
+            "48":  "images/R48.png",
+            "128": "images/R128.png"
+        }
+    },
+    "icons": {
+        "16":  "images/R16.png",
+        "32":  "images/R32.png",
+        "48":  "images/R48.png",
+        "128": "images/R128.png"
+    },
+    "default_locale": "en",
+    "manifest_version": 3
+}
