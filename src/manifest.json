@@ -1,30 +1,20 @@
 {
-    "name": "SF Session Refresher",
-    "version": "1",
-    "description": "Sales Force Session refresher [page refresher]",
-    "permissions":["activeTab"],
+    "name": "DataArt SF Session Refresher",
+    "version": "1.0.0",
+    "description": "Extension refreshes unactive dataart salesforce tab in 5 minute period. Extension refreshes only UNACTIVE [when you on another tab] tabs.",
+    "permissions": ["tabs", "alarms"],
     "background": {
         "scripts": ["background.js"],
-        "persistent": "false"
+        "persistent": false
     },
     "browser_action": {
         "default_title": "page refresher"
     },
-    "page_action": {
-        "default_popup": "popup.html",
-        "default_icon": {
-            "16":  "images/R16.png",
-            "32":  "images/R32.png",
-            "48":  "images/R48.png",
-            "128": "images/R128.png"
-        }
-    },
     "icons": {
-        "16":  "images/R16.png",
-        "32":  "images/R32.png",
-        "48":  "images/R48.png",
+        "16": "images/R16.png",
+        "32": "images/R32.png",
+        "48": "images/R48.png",
         "128": "images/R128.png"
     },
-    "default_locale": "en",
-    "manifest_version": 3
+    "manifest_version": 2
 }
